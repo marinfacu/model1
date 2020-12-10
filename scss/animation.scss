@@ -1,0 +1,179 @@
+/* animacion general*/
+.general__header--menu{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1s;
+	-webkit-animation-delay:1s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#imgLogo{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 0.5s;
+	-webkit-animation-delay:0.5s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+footer{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1.5s;
+	-webkit-animation-delay:1.5s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+#footerIzquierda{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 4s;
+	-webkit-animation-delay:4s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#footerMedio{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 4.5s;
+	-webkit-animation-delay:4.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#footerDerecha{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 5s;
+	-webkit-animation-delay:5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+/* animacion index */
+#textoIndex{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1.5s;
+	-webkit-animation-delay:1.5s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#textoPrincipal{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 2.5s;
+	-webkit-animation-delay:2.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#h1_index{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 2s;
+	-webkit-animation-delay:2s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#botonIndex{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 3.5s;
+	-webkit-animation-delay:3.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#imagenIndex{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1.5s;
+	-webkit-animation-delay:1.5s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.animacionTitulos{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+/* animacion ficha */
+
+#textoFicha{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1.5s;
+	-webkit-animation-delay:1.5s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ficha__contenido--menu{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 2s;
+	-webkit-animation-delay:2s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#fichaTecnica{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 0.5s;
+	-webkit-animation-delay:0.5s;
+	animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+/* animacion embajadores */
+
+.ficha__animacionFoto{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 0s;
+	-webkit-animation-delay:0s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.ficha__animacionContenido{
+		opacity: 0;
+	animation: fadeIn;
+	animation-delay: 0.5s;
+	-webkit-animation-delay:0.5s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#textoEmbajadores{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 1.5s;
+	-webkit-animation-delay:1.5s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#downEmbajadores{
+	opacity: 0;
+	animation: fadeIn;
+	animation-delay: 2s;
+	-webkit-animation-delay:2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}

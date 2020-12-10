@@ -1,0 +1,117 @@
+.ficha__contenido--menu{
+	padding: 10px 45px 10px 45px;
+	display: block;
+	text-decoration: none;
+	border: 1px solid $gris50;
+	margin-top: 50px;
+	&:hover{
+		background-color: $gris10;
+}
+	&:active{
+		background-color: $gris30;
+}
+ }
+
+#mainFicha{
+	background-color: $gris10;
+	padding: 70px;
+	font-family: 'Poppins', sans-serif;
+    color: rgb(206,206,206);
+    padding-bottom: 200px;
+    p {
+		font-size: 20px;
+		text-align: justify;
+    }
+}
+
+
+table{
+	width: 800px;
+	border-spacing: 0;
+}
+
+.ficha__contenido--tabla1{
+	background-color: $gris10;
+}
+
+.ficha__contenido--tablaColIzq{
+	text-align: right;
+}
+
+td{
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	color: $gris100;
+}
+
+.ficha__contenido--tituloFicha{
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
+.ficha__contenido--numeroFicha{
+	text-align: right;
+	@extend .ficha__contenido--tituloFicha;
+}
+
+.ficha__contenido--contenedorSection{
+	margin-bottom: 80px;
+}
+
+hr{
+	background-color: $gris50;
+	margin-bottom: 60px;
+}
+
+.ficha__contenido--caracteristicasTexto{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.galeria{
+	display: block;
+	margin: auto;
+}
+
+.ficha__contenido--descargas{
+	background-color: $gris10;
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+	margin: 0px 0px 0px 0px;
+	&:hover{
+		background-color: $gris10;
+}
+}
+
+
+#cajaDescargas{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 160px;
+}
+
+
+#menuFicha{
+	display: block;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+	background-color: $gris100;
+	list-style: none;
+}
+
+#cajaMenuPages{
+	background-color: $gris10;
+	margin-top: 50px;
+	margin-left: 70px;
+	padding: 20px;
+}
+
+.ficha__contenido--scroll{
+	margin-top: 40px;
+	padding: 0px;
+	text-align: right;
+}

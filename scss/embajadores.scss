@@ -1,0 +1,73 @@
+#mainEmbajadores{
+	background-color: $gris10;
+	font-family: 'Poppins', sans-serif;
+    color: rgb(206,206,206);
+    padding-bottom: 200px;
+    padding-top: 60px;
+    p {
+		font-size: 20px;
+		text-align: justify;
+		display: block;
+    }
+    svg{
+    	margin-top: 50px;
+    }
+}
+
+
+
+
+.embajadores__contenido--menu{
+	border: none;
+	margin-top: 30px;
+	li{
+		width: 25%; 
+		padding: 10px 45px 10px 45px;
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid $gris50;
+		margin: 0px;
+		text-align: center;
+		&:hover{
+			background-color: $gris10;
+		}
+		&:active{
+			background-color: $gris30;
+		}
+	}
+}
+
+#downEmbajadores{
+	display: flex;
+	justify-content: center;
+}
+
+.imgEmbajadores{
+	display: inline-block;
+	width: 100%;
+	opacity: 80%;
+	&:hover{
+		opacity: 100%
+}
+}
+
+
+.cajaImgEmbajadores{
+	padding: 0px;
+}
+
+.redesEmbajador{
+	margin-right: 10px;
+	width: 4%;
+}
+.redesFacebookEmbajador{
+	margin-right: 10px;
+	width: 2%;
+}
+
+
+.embajadores__contenido--cajaCard{
+	background-color: $gris10;
+	padding: 30px;
+	margin: 40px 0px 70px 0px;
+}

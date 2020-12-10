@@ -1,0 +1,25 @@
+@import "variables";
+
+/*estilos generales*/
+@import "generales";
+
+/*estilos de index.html*/
+@import "index";
+
+/*estilos de ficha.html*/
+@import "ficha";
+
+/*estilos de embajadores.html*/
+@import "embajadores";
+
+ /*estilos de contacto.html*/
+@import "contacto";
+
+/*media query para xs - (max 767px) */
+@import "mediaxs";
+
+/*media query para sm - (min 768px - max 991.98px) */
+@import "mediasm";
+
+/*animaciones */
+@import "animation";

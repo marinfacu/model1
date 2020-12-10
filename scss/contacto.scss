@@ -1,0 +1,56 @@
+::placeholder {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: $gris100;
+}
+
+input{
+	padding:5px 10px;
+	background-color: transparent;
+	margin: 10px 20px;
+	border-bottom: 1px, $gris100;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+select{
+	@extend input;
+}
+
+textarea{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	width:90%;
+	height:100px;
+	@extend input;
+	margin:10px 10px;
+	}
+
+#limpiar{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: $gris100;
+	text-align: right;
+	width: 60px;
+	&:hover{
+		color:#cc111a;
+}
+}
+
+
+
+#enviar{
+	color: $gris100;
+	font-size: 18px;
+	width: 180px;
+	height: 40px;
+	border: 1px solid;
+	border-color: $gris100;
+	text-align: center;
+	padding: 10px;
+	&:hover{
+		background-color: $gris10;
+}
+}
+
