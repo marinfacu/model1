@@ -45,7 +45,7 @@ textarea{
 
 
 #enviar{
-	color: $gris100;
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	width: 180px;
 	height: 40px;
@@ -54,7 +54,9 @@ textarea{
 	text-align: center;
 	padding: 10px;
 	&:hover{
-		background-color: $gris10;
-}
+	background-color: $gris10;
+		border: 1px solid;
+		border-color: $gris100;	
+	} 
 }
 
