@@ -82,6 +82,7 @@ footer {
 
 .general__header--menu {
   padding: 10px 25px 10px 25px;
+  margin-left: 5px;
   display: block;
   text-decoration: none; }
   .general__header--menu:hover {
