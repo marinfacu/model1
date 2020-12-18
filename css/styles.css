@@ -425,6 +425,17 @@ textarea {
 #activoComprar {
   background-color: rgba(206, 206, 206, 0.1); }
 
+#mainComprar {
+  background-color: rgba(206, 206, 206, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #cecece;
+  padding-bottom: 30px;
+  padding-top: 60px; }
+
+#map {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
 /*media query para xs - (max 767px) */
 @media (max-width: 767px) {
   h1 {
