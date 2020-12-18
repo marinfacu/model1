@@ -355,15 +355,28 @@ hr {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #cecece; }
+  ::placeholder:Focus {
+    Background-color: rgba(206, 206, 206, 0.1); }
 
 input, select, textarea {
   padding: 5px 10px;
+  color: #cecece;
   background-color: transparent;
   margin: 10px 20px;
   border-bottom: 1px, #cecece;
   border-top: 0px;
   border-right: 0px;
   border-left: 0px; }
+  input:Focus, select:Focus, textarea:Focus {
+    Background-color: rgba(206, 206, 206, 0.1);
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none; }
+
+select:Focus {
+  Background-color: rgba(206, 206, 206, 0.1); }
 
 textarea {
   font-family: 'Poppins', sans-serif;
@@ -371,29 +384,42 @@ textarea {
   width: 90%;
   height: 100px;
   margin: 10px 10px; }
+  textarea:Focus {
+    Background-color: rgba(206, 206, 206, 0.1); }
 
 #limpiar {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #cecece;
   text-align: right;
-  width: 60px; }
+  width: 60px;
+  border-bottom: 0px;
+  margin-right: 0px;
+  padding-right: 0px; }
   #limpiar:hover {
     color: #cc111a; }
 
 #enviar {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  color: #cecece;
   width: 180px;
   height: 40px;
   border: 1px solid;
   border-color: #cecece;
   text-align: center;
-  padding: 10px; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px; }
   #enviar:hover {
     background-color: rgba(206, 206, 206, 0.1);
     border: 1px solid;
     border-color: #cecece; }
+
+#obligatorio {
+  margin: 0px;
+  padding: 0px; }
 
 /*estilos de comprar.html*/
 #activoComprar {

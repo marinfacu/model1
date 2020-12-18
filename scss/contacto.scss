@@ -6,20 +6,35 @@
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	color: $gris100;
+	&:Focus {
+		Background-color: $gris10;
+	}
 }
 
 input{
 	padding:5px 10px;
+	color: $gris100;
 	background-color: transparent;
 	margin: 10px 20px;
 	border-bottom: 1px, $gris100;
 	border-top: 0px;
 	border-right: 0px;
 	border-left: 0px;
+	&:Focus {
+		Background-color: $gris10;
+		outline:none !important;
+		outline-width: 0 !important;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+	}
 }
 
 select{
 	@extend input;
+	&:Focus {
+		Background-color: $gris10;
+	}
 }
 
 textarea{
@@ -29,6 +44,9 @@ textarea{
 	height:100px;
 	@extend input;
 	margin:10px 10px;
+	&:Focus {
+		Background-color: $gris10;
+	}
 	}
 
 #limpiar{
@@ -37,22 +55,28 @@ textarea{
 	color: $gris100;
 	text-align: right;
 	width: 60px;
+	border-bottom: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
 	&:hover{
 		color:#cc111a;
 }
 }
 
 
-
 #enviar{
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
+	color: $gris100;
 	width: 180px;
 	height: 40px;
 	border: 1px solid;
 	border-color: $gris100;
 	text-align: center;
-	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
 	&:hover{
 	background-color: $gris10;
 		border: 1px solid;
@@ -60,3 +84,7 @@ textarea{
 	} 
 }
 
+#obligatorio{
+	margin: 0px;
+	padding: 0px;
+}
