@@ -128,6 +128,9 @@ ul {
   font-size: 23px; }
 
 /*estilos de index.html*/
+#activoIdex {
+  background-color: rgba(206, 206, 206, 0.3); }
+
 #imagenIndex {
   opacity: 50%;
   height: 100%; }
