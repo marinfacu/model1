@@ -392,6 +392,10 @@ textarea {
   #enviar:hover {
     background-color: rgba(206, 206, 206, 0.1); }
 
+/*estilos de comprar.html*/
+#activoComprar {
+  background-color: rgba(206, 206, 206, 0.1); }
+
 /*media query para xs - (max 767px) */
 @media (max-width: 767px) {
   h1 {
