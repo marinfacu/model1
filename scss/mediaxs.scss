@@ -1,10 +1,8 @@
 @media (max-width:767px){ 
+	/*  GENERALES  */
 	h1{
 		font-size: 35px;
 		margin: 15px 0px 15px 0px;
-	}
-	#h1_index{
-		text-align: center;
 	}
 	h2{
     	font-size: 30px;
@@ -16,21 +14,6 @@
 
 	hr{
 		margin-top: 20px;
-	}
-	#textoIndex{
-	padding: 35px 20px 35px 20px;
-	}
-    #textoPrincipal{
-       font-size: 14px;
-       text-align: center;
-	}
-	.index__contenido--boton{
-		display: flex;
-		justify-content: center;
-		padding: 10px 0px 10px 0px;
-	}
-	#botonIndex{
-		margin-top: 25px;
 	}
 	#footerIzquierda{
 		display: flex;
@@ -54,31 +37,75 @@
 		margin-top: 40px;
 		padding: 15px 0px 15px 0px;
 	}
+	/*  INDEX  */
+	#textoIndex{
+	padding: 35px 20px 35px 20px;
+	}
+    #textoPrincipal{
+       font-size: 14px;
+       text-align: center;
+	}
+	.index__contenido--boton{
+		display: flex;
+		justify-content: center;
+		padding: 10px 0px 10px 0px;
+	}
+	#botonIndex{
+		margin-top: 25px;
+	}
+	#h1_index{
+		text-align: center;
+	}
 
-#mainEmbajadores{
-	padding-right: 40px;
-	padding-left: 40px;
-	p {
-		font-size: 15px;
+	/*  FICHA  */
+	#mainFicha{
+		padding: 30px;
 	}
-	svg{
-		margin-top: 20px;
+	.ficha__contenido--menu{
+		margin: 0px;
+		width: 80%;
+		text-align: center;
 	}
-	a{
+	.ficha__contenido--scroll{
+		display: none;
+	}
+
+	.imgFicha{
+		width: 80%;
+	}
+
+	.ficha__contenido--descargas{
+		margin-bottom: 25px;
+		a{
+			font-size: 22px;
+		}
+	}
+
+	/*  EMBAJADORES  */
+	#mainEmbajadores{
+		padding-right: 40px;
+		padding-left: 40px;
+		p {
+			font-size: 15px;
+		}
+		svg{
+			margin-top: 20px;
+		}
+		a{
+			display: flex;
+			justify-content: center;
+		}
+	}		
+
+	.embajadores__contenido--menu{
+		margin-top: 30px;
+		li{
+			width: 100%;
+			height: 50px;
+		}
+	}
+	#down{
 		display: flex;
 		justify-content: center;
 	}
-}		
-
-.embajadores__contenido--menu{
-	margin-top: 30px;
-	li{
-		width: 100%;
-		height: 50px;
-	}
-}
-#down{
-	display: flex;
-	justify-content: center;
-}
 }

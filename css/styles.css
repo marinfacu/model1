@@ -438,28 +438,16 @@ textarea {
 
 /*media query para xs - (max 767px) */
 @media (max-width: 767px) {
+  /*  GENERALES  */
   h1 {
     font-size: 35px;
     margin: 15px 0px 15px 0px; }
-  #h1_index {
-    text-align: center; }
   h2 {
     font-size: 30px; }
   h4 {
     visibility: hidden; }
   hr {
     margin-top: 20px; }
-  #textoIndex {
-    padding: 35px 20px 35px 20px; }
-  #textoPrincipal {
-    font-size: 14px;
-    text-align: center; }
-  .index__contenido--boton {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px 10px 0px; }
-  #botonIndex {
-    margin-top: 25px; }
   #footerIzquierda {
     display: flex;
     align-items: center;
@@ -478,6 +466,36 @@ textarea {
     height: 120px;
     margin-top: 40px;
     padding: 15px 0px 15px 0px; }
+  /*  INDEX  */
+  #textoIndex {
+    padding: 35px 20px 35px 20px; }
+  #textoPrincipal {
+    font-size: 14px;
+    text-align: center; }
+  .index__contenido--boton {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px; }
+  #botonIndex {
+    margin-top: 25px; }
+  #h1_index {
+    text-align: center; }
+  /*  FICHA  */
+  #mainFicha {
+    padding: 30px; }
+  .ficha__contenido--menu {
+    margin: 0px;
+    width: 80%;
+    text-align: center; }
+  .ficha__contenido--scroll {
+    display: none; }
+  .imgFicha {
+    width: 80%; }
+  .ficha__contenido--descargas {
+    margin-bottom: 25px; }
+    .ficha__contenido--descargas a {
+      font-size: 22px; }
+  /*  EMBAJADORES  */
   #mainEmbajadores {
     padding-right: 40px;
     padding-left: 40px; }
