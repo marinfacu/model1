@@ -74,11 +74,12 @@ footer {
     fill: #c4302b; }
 
 #cajaMenuIndex {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-end;
   text-align: right;
-  margin: 20px 0px 0px 0px; }
+  margin: 0px 0px 0px 0px;
+  width: 70%; }
 
 .general__header--menu {
   padding: 10px 25px 10px 25px;
@@ -101,12 +102,13 @@ ul {
 #imgLogo {
   width: 50px;
   height: 50px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center; }
 
 #cajaLogoIndex {
-  margin: 0px 0px 0px 0px; }
+  margin: 0px 0px 0px 0px;
+  width: auto; }
 
 .title1 {
   font-family: 'Poppins', sans-serif;

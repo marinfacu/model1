@@ -85,11 +85,12 @@ footer{
 
 
 #cajaMenuIndex{
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: flex-end;
 	text-align: right;
-	margin: 20px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 70%;
 }
 
 .general__header--menu{
@@ -118,13 +119,14 @@ ul{
 #imgLogo{
 	width: 50px;
 	height: 50px;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 }
 
 #cajaLogoIndex{
 	margin: 0px 0px 0px 0px;
+	width: auto;
 }
 
 
