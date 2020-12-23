@@ -45,6 +45,18 @@
 		margin-top: 40px;
 		padding: 15px 0px 15px 0px;
 	}
+	#ajusteMenuXS{
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+		padding-right: 0px;
+	}
+	.general__header--menu{
+		text-align: right;
+		padding: 12px;
+		width: 100%;
+		margin-top: 10px;
+	 }
 	/*  INDEX  */
 	#textoIndex{
 	padding: 35px 20px 35px 20px;
@@ -120,12 +132,15 @@
 		display: flex;
 		justify-content: center;
 	}
-	}
 
 	audio{
 		width: 100%;
 	}
 
+	/*  COMPRAR  */
+#enviar{
+	width: 100%;
+}
 
 	/*  COMPRAR  */
 
@@ -135,4 +150,5 @@
 
 #mainComprar {
 	padding-bottom: 60px;
+}
 }

@@ -91,6 +91,7 @@ footer{
 	text-align: right;
 	margin: 0px 0px 0px 0px;
 	width: 70%;
+	padding: 0px;
 }
 
 .general__header--menu{
@@ -154,6 +155,6 @@ ul{
     font-size: 23px;
 }
 
-#activoContacto{
+.activo{
 	background-color: $gris10;
 }

@@ -24,20 +24,25 @@
 <body>
 	<header> 
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-start">
 				<div class="col-xs-1 col-sm-2 col-md-4" id="cajaLogoIndex">
 					<img src="img/logo.png" alt="MODEL1 - Equipos para DJs" id="imgLogo">
 				</div>
-				<div class="col-xs-11 col-sm-10 col-md-8" id="cajaMenuFicha">
-					<nav>
-						<ul>
+				<div class="col-xs-8 col-sm-10 col-md-8" id="cajaMenuIndex">
+					<nav class="navbar navbar-expand-lg navbar-dark" id="ajusteMenuXS">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+						  <ul class="navbar-nav">
 							<li class="general__header--menu"><a href="index.html">Inicio</a></li>
 							<li class="general__header--menu"><a href="ficha.html">Ficha</a></li>
 							<li class="general__header--menu"><a href="embajadores.html">Embajadores</a></li>
-							<li class="general__header--menu" id="activoContacto"><a href="contacto.html">Contacto</a></li>
+							<li class="general__header--menu activo"><a href="contacto.html">Contacto</a></li>
 							<li class="general__header--menu"><a href="comprar.html">Comprar</a></li>
-						</ul>
-					</nav>
+						  </ul>
+						</div>
+					  </nav>
 				</div>
 			</div>
 		</div>
@@ -55,14 +60,14 @@
 					<form>
 						<div class="container">
 							<div class="row justify-content-center">
-								<input class="col-xs-11 col-sm-5 col-md-5" type="text" name="nombre" placeholder="Nombre *" required>
-								<input class="col-xs-11 col-sm-5 col-md-5" type="text" name="apellido" placeholder="Apellido *" required="">
+								<input class="col-xs-11 col-sm-auto col-md-5 ajusteContactoSM" type="text" name="nombre" placeholder="Nombre *" required>
+								<input class="col-xs-11 col-sm-auto col-md-5 ajusteContactoSM" type="text" name="apellido" placeholder="Apellido *" required="">
 							</div>
 						</div>
 						<div class="container">
 							<div class="row justify-content-center">
-								<input class="col-xs-11 col-sm-5 col-md-5" type="email" name="mail" placeholder="Mail *" required>
-								<select class="col-xs-11 col-sm-5 col-md-5" name="pais *" required>
+								<input class="col-xs-11 col-sm-5 col-md-5 ajusteContactoSM" type="email" name="mail" placeholder="Mail *" required>
+								<select class="col-xs-11 col-sm-5 col-md-5 ajusteContactoSM" name="pais *" required>
 									<option value="xx">Pais</option>
 									<option value="AF">Afganistán</option>
 									<option value="AL">Albania</option>
@@ -303,8 +308,8 @@
 			 			</div>
 			 			<div class="container">
 							<div class="row justify-content-center">
-				 				<input class="col-xs-11 col-sm-5 col-md-5" type="text" name="Asunto" placeholder="Asunto">
-								<input class="col-xs-11 col-sm-5 col-md-5" type="text" name="serie" placeholder="Nro. de serie">
+				 				<input class="col-xs-11 col-sm-5 col-md-5 ajusteContactoSM" type="text" name="Asunto" placeholder="Asunto">
+								<input class="col-xs-11 col-sm-5 col-md-5 ajusteContactoSM" type="text" name="serie" placeholder="Nro. de serie">
 							</div>
 						</div>
 			 			<div class="container">
