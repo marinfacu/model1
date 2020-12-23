@@ -1,19 +1,27 @@
 @media (max-width:767px){ 
 	/*  GENERALES  */
 	h1{
-		font-size: 35px;
+		font-size: 25px;
 		margin: 15px 0px 15px 0px;
 	}
 	h2{
-    	font-size: 30px;
+		font-size: 30px;
+		text-align: center;
 	}
 
 	h4{
 		visibility: hidden;
 	}
 
+	.title1{
+		margin-top: 15px;
+		font-size: 35px;
+		line-height : 35px;
+	}
+
 	hr{
 		margin-top: 20px;
+		box-sizing: border-box;
 	}
 	#footerIzquierda{
 		display: flex;
@@ -59,7 +67,11 @@
 
 	/*  FICHA  */
 	#mainFicha{
-		padding: 30px;
+		padding: 60px 40px 60px 40px ;
+		p {
+			font-size: 15px;
+			margin-bottom: 45px;
+		}
 	}
 	.ficha__contenido--menu{
 		margin: 0px;
@@ -84,8 +96,7 @@
 
 	/*  EMBAJADORES  */
 	#mainEmbajadores{
-		padding-right: 40px;
-		padding-left: 40px;
+		padding: 60px 40px 60px 40px ;
 		p {
 			font-size: 15px;
 		}
@@ -109,7 +120,12 @@
 		display: flex;
 		justify-content: center;
 	}
-}
+	}
+
+	audio{
+		width: 100%;
+	}
+
 
 	/*  COMPRAR  */
 
