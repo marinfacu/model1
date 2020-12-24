@@ -13,6 +13,23 @@
 		padding-right: 10px;
 		padding-left: 10px;
 	}
+	.ajusteMenuResponsive{
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+		padding-right: 0px;
+	}
+	.general__header--menu{
+		text-align: right;
+		padding: 12px;
+		width: 100%;
+		margin-top: 10px;
+	 }
+
+	 .ficha__contenido--menu{
+		margin-top: 0px;
+	 }
+
 		/*  CONTACTO  */
 	.ajusteContactoSM{
 		padding: 0px;
