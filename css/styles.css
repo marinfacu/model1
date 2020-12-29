@@ -216,7 +216,8 @@ main p {
   padding-bottom: 200px; }
   #mainFicha p {
     font-size: 20px;
-    text-align: justify; }
+    text-align: justify;
+    display: block; }
 
 table {
   width: 800px;
@@ -298,8 +299,8 @@ hr {
   background-color: rgba(206, 206, 206, 0.1);
   font-family: 'Poppins', sans-serif;
   color: #cecece;
-  padding-bottom: 200px;
-  padding-top: 60px; }
+  padding: 70px;
+  padding-bottom: 200px; }
   #mainEmbajadores p {
     font-size: 20px;
     text-align: justify;
