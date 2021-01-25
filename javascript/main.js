@@ -77,7 +77,7 @@ if (alquilerCompra == "COMPRA"){
     }
     else if (alquilerCompra == "ALQUILER"){
             console.log ("PRECIO DE ALQUILER");
-            console.log ("Alquiler por " + diasAlquiler + "días - sin envio: $ " + precioAlquiler + ".-");
-            console.log ("Alquiler por " + diasAlquiler + "días - con envio: $ " + (precioAlquiler + precioEnvioAlquiler) + ".-");
+            console.log ("Alquiler por " + diasAlquiler + " días - sin envio: $ " + precioAlquiler + ".-");
+            console.log ("Alquiler por " + diasAlquiler + " días - con envio: $ " + (precioAlquiler + precioEnvioAlquiler) + ".-");
             console.log ("El costo de envio incluye retiro.");
         }
