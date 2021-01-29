@@ -3,8 +3,13 @@ var precioAlquilerDia = 4500
 var precioEnvioCompra = 1500
 var precioEnvioAlquiler = 2500
 
-
-
+var modeloDisponible = [
+    "Serie 2.0",
+    "Serie 2.5",
+    "Serie 3.0",
+    "Serie 3.5",
+    "Serie 4.0",
+    "Serie 4.2"]
 
 function solicitudProvincia(){
     var provincia = (prompt("Ingresá tu provincia. Cordoba y Buenos Aires disponibles.").toUpperCase());
@@ -17,9 +22,9 @@ function solicitudProvincia(){
 
 function proveedor(){
     if (provincia == "CORDOBA"){
-        console.log ("Distribuidores en Cordoba");}
+        console.log ("DISTRIBUIDORES EN CORDOBA");}
         else if (provincia == "BUENOS AIRES"){
-        console.log ("Distribuidores en Buenos Aires")
+        console.log ("DISTRIBUIDORES EN BUENOS AIRES")
         }
 }
 
@@ -43,17 +48,36 @@ var Casa6 = new Distribuidor("Bedrock", "Buenos Aires", "si", "no", "Fernando Sa
 
 function distCordoba(){
     if (provincia == "CORDOBA" && alquilerCompra == "ALQUILER"){
-        console.log (Casa1, Casa2);}
-    else if(provincia == "CORDOBA" && alquilerCompra == "COMPRA"){
-        console.log (Casa1, Casa3);}
+        console.log (Casa1);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[3] + " - " + modeloDisponible[3]);
+        console.log (Casa2);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[1] + " - " + modeloDisponible[4] + " - " + modeloDisponible[5]);
     }
+    else if(provincia == "CORDOBA" && alquilerCompra == "COMPRA"){
+        console.log (Casa1);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[0] + " - " + modeloDisponible[1]);
+        console.log (Casa3);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[0] + " - " + modeloDisponible[3] + " - " + modeloDisponible[4] + " - " + modeloDisponible[5]);
+    }
+}
 
 
 function distBuenosAires(){
     if (provincia == "BUENOS AIRES" && alquilerCompra == "ALQUILER"){
-        console.log (Casa4, Casa6);}
+        console.log (Casa4);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[2]);
+        console.log (Casa6);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[2] + " - " + modeloDisponible[4] + " - " + modeloDisponible[5]);}
     else if(provincia == "BUENOS AIRES" && alquilerCompra == "COMPRA"){
-        console.log (Casa4, Casa5);}
+        console.log (Casa5);
+        console.log ("Modelos disponibles");
+        console.log (modeloDisponible[2] + " - " + modeloDisponible[3] + " - " + modeloDisponible[5]);}
     }
 
 
@@ -71,13 +95,15 @@ distBuenosAires();
 var precioAlquiler = (diasAlquiler * precioAlquilerDia)
 
 if (alquilerCompra == "COMPRA"){
+    console.log ("");
     console.log ("PRECIO DE COMPRA");
     console.log ("Compra - sin envio: $" + precioCompra + ".-");
     console.log ("Compra - con envio: $" + (precioCompra + precioEnvioCompra) + ".-");
     }
     else if (alquilerCompra == "ALQUILER"){
-            console.log ("PRECIO DE ALQUILER");
-            console.log ("Alquiler por " + diasAlquiler + " días - sin envio: $ " + precioAlquiler + ".-");
-            console.log ("Alquiler por " + diasAlquiler + " días - con envio: $ " + (precioAlquiler + precioEnvioAlquiler) + ".-");
-            console.log ("El costo de envio incluye retiro.");
+        console.log ("");
+        console.log ("PRECIO DE ALQUILER");
+        console.log ("Alquiler por " + diasAlquiler + " días - sin envio: $ " + precioAlquiler + ".-");
+        console.log ("Alquiler por " + diasAlquiler + " días - con envio: $ " + (precioAlquiler + precioEnvioAlquiler) + ".-");
+        console.log ("El costo de envio incluye retiro.");
         }
